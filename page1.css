@@ -1,0 +1,119 @@
+
+body .layout-top ul {
+	height: 30px;
+	width: 1400px;
+	background: #F7F7F7;
+}
+
+body .layout-top ul li {
+	list-style: none;
+	margin-left: 40px;
+	margin-right: 100px;
+}
+
+body .layout-top ul li .leftMenu {
+	float: left;
+	margin-right: 8px;
+}
+
+body .layout-top ul li .rightMenu {
+	float: right;
+	margin-right: 8px;
+}
+
+body .layout-nav {
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+	background: #F7F7F7;
+	width: 260px;
+	height: 484px;
+}
+
+body .layout-nav ul li{
+	/*无序list去掉前面的标记*/
+	list-style: none;
+	margin-top: 60px;
+}
+
+body .layout-nav ul li a {
+	/*去掉超链接下划线*/
+	text-decoration: none;
+}
+
+body .layout-pic {
+	float: left;
+	width: 400px;
+}
+
+body .layout-pic img {
+	width: 500px;
+}
+
+body .layout-pic-text {
+	width: 300px;
+	/*左对齐*/
+	float: left;
+	margin-left: 210px;
+	margin-top: 20px;
+}
+
+body .layout-pic-text h2 {
+	/*右对齐*/
+	float: right;
+}
+
+body .layout-disk-title {
+	position: relative;
+	margin-left: 80px;
+	margin-right: 75px;
+	height: 80px;
+	/*设置边框，顺序为 上 右 下 左*/
+	border-style: none none solid none;
+}
+
+body .layout-disk-title h2{
+	/*使文字底部对齐*/
+	position: absolute; 
+	bottom: 0px; 
+	padding: 0px; 
+	margin: 0px
+}
+
+body .layout-disk-example {
+	float: left;
+	width: 350px;
+	margin-left: 80px;
+}
+
+body .layout-disk-example img {
+	width: 350px;
+	max-height: 350px;
+}
+
+body .layout-disk-example h2.disk-name{
+	text-align: center;
+}
+
+body .layout-footer {
+
+	height: 500px;
+	width: 1400px;
+	background: #F7F7F7;
+	clear: both;
+	margin-top: 500px;
+}
+
+body .layout-footer .contactUs {
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+body .layout-footer .ourLocation {
+	float: left;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+}
